@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+}
+
+#mainDiv {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    /* Use 'row' if you want the div to expand horizontally */
+    height: 100vh;
+    width: 100vw;
+}
+
+#leftDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 30%;
+    background-color: blue;
+}
+
+#rightDiv {
+    background-color: grey;
+
+    /* Use 'row' if you want the div to expand horizontally */
+    height: 100vh;
+    /* Parent should have a defined height */
+}
+
+.leftDivText {
+    margin: 0;
+    color: aliceblue;
+    font-family: monospace
+}
+
+h4 {
+    margin: 0;
+}
+
+.supprotingText {
+    margin: 2px;
+    color: grey;
+    font-family: monospace
+}
+
+.signInBtn {}
